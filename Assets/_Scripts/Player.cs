@@ -60,7 +60,7 @@ public class Player : MonoBehaviour
 		if(OSCEventListener.OSC)
 			OSCEventListener.OSC.ResetReferences();
 
-		anim = GameObject.Find("MRS_LING").GetComponent<Animator>();
+		//anim = GameObject.Find("MRS_LING").GetComponent<Animator>();
 
 		//clone.gameObject.SetActive(false);
 	}
