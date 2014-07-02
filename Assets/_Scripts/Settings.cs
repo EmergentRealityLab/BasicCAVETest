@@ -11,7 +11,8 @@ public class Settings : MonoBehaviour
 	{
 		get
 		{
-			return Application.isEditor;
+			return false;
+			//return Application.isEditor;
 		}
 	}
 
